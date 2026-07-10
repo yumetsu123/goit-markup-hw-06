@@ -1,0 +1,29 @@
+.features-subtitle {
+    color: #2E2F42;
+}
+
+.features-list {
+    display: flex;
+    gap: 24px;
+}
+
+.features-item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex-basis: 264px;
+}
+
+.features-icon-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    background-color: #F4F4FD;
+    height: 112px;
+}
+
+.feature-icon {
+    color: #2E2F42;
+}
