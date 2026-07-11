@@ -72,7 +72,7 @@
     }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1158px) {
     .hero {
         background-image: linear-gradient(180deg, rgba(46, 47, 66, 0.7) 0%,
             rgba(46, 47, 66, 0.7) 100%),
@@ -85,7 +85,7 @@
     }
 }
 
-@media (min-width: 1440px) and (min-resolution: 2dppx) {
+@media (min-width: 1158px) and (min-resolution: 2dppx) {
     .hero {
         background-image: linear-gradient(180deg, rgba(46, 47, 66, 0.7) 0%,
             rgba(46, 47, 66, 0.7) 100%),
