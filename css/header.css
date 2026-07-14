@@ -24,8 +24,7 @@
 }
 
 @media (min-width: 768px) {
-    .mobile-menu-open,
-    .mobile-menu.is-active {
+    .mobile-menu-open {
         display: none;
     }
 

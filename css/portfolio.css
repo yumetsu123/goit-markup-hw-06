@@ -38,6 +38,10 @@
     .portfolio-item {
         flex-basis: calc((100% - 48px) / 3)
     }
+
+    .portfolio-list {
+        row-gap: 48px;
+    }
 }
 
 .portfolio-wrapper {
