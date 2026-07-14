@@ -327,8 +327,8 @@
                 <img
                   src="./images/portfolio/portfolio-1.jpg"
                   srcset="
-                    ./images/portfolio/portfolio-1@1x.jpg,
-                    ./images/portfolio/portfolio-1@2x.jpg
+                    ./images/portfolio/portfolio-1@1x.jpg 1x,
+                    ./images/portfolio/portfolio-1@2x.jpg 2x
                   "
                   width="360"
                   height="300"
@@ -353,8 +353,8 @@
                 <img
                   src="./images/portfolio/portfolio-2.jpg"
                   srcset="
-                    ./images/portfolio/portfolio-2@1x.jpg,
-                    ./images/portfolio/portfolio-2@2x.jpg
+                    ./images/portfolio/portfolio-2@1x.jpg 1x,
+                    ./images/portfolio/portfolio-2@2x.jpg 2x
                   "
                   width="360"
                   height="300"
@@ -379,8 +379,8 @@
                 <img
                   src="./images/portfolio/portfolio-3.jpg"
                   srcset="
-                    ./images/portfolio/portfolio-3@1x.jpg,
-                    ./images/portfolio/portfolio-3@2x.jpg
+                    ./images/portfolio/portfolio-3@1x.jpg 1x,
+                    ./images/portfolio/portfolio-3@2x.jpg 2x
                   "
                   width="360"
                   height="300"
@@ -405,8 +405,8 @@
                 <img
                   src="./images/portfolio/portfolio-4.jpg"
                   srcset="
-                    ./images/portfolio/portfolio-4@1x.jpg,
-                    ./images/portfolio/portfolio-4@2x.jpg
+                    ./images/portfolio/portfolio-4@1x.jpg 1x,
+                    ./images/portfolio/portfolio-4@2x.jpg 2x
                   "
                   width="360"
                   height="300"
@@ -431,8 +431,8 @@
                 <img
                   src="./images/portfolio/portfolio-5.jpg"
                   srcset="
-                    ./images/portfolio/portfolio-5@1x.jpg,
-                    ./images/portfolio/portfolio-5@2x.jpg
+                    ./images/portfolio/portfolio-5@1x.jpg 1x,
+                    ./images/portfolio/portfolio-5@2x.jpg 2x
                   "
                   width="360"
                   height="300"
@@ -457,8 +457,8 @@
                 <img
                   src="./images/portfolio/portfolio-6.jpg"
                   srcset="
-                    ./images/portfolio/portfolio-6@1x.jpg,
-                    ./images/portfolio/portfolio-6@2x.jpg
+                    ./images/portfolio/portfolio-6@1x.jpg 1x,
+                    ./images/portfolio/portfolio-6@2x.jpg 2x
                   "
                   width="360"
                   height="300"
@@ -549,73 +549,79 @@
       </div>
     </footer>
 
-    <div class="mobile-menu" id="mobile-menu">
-      <button type="button" class="mobile-menu-close close-button">
-        <svg class="close-icon" width="8" height="8">
-          <use href="./images/icons.svg#close-icon"></use>
-        </svg>
-      </button>
-      <nav class="mobile-menu-nav">
-        <ul class="mobile-menu-list">
-          <li class="mobile-menu-item">
-            <a href="./index.html" class="mobile-menu-link">Studio</a>
-          </li>
-          <li class="mobile-menu-item">
-            <a href="./index.html" class="mobile-menu-link">Portfolio</a>
-          </li>
-          <li class="mobile-menu-item">
-            <a href="./index.html" class="mobile-menu-link">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="mobile-menu-bottom">
-        <address class="mobile-menu-contacts">
-          <ul class="mobile-menu-contacts-list">
-            <li class="mobile-menu-contacts-item">
-              <a href="tel:+110001111111" class="mobile-menu-contacts-link"
-                >+11 (000) 111-11-11</a
+    <div class="mobile-menu is-active" id="mobile-menu">
+      <div class="mobile-menu-container">
+        <button type="button" class="mobile-menu-close close-button">
+          <svg class="close-icon" width="8" height="8">
+            <use href="./images/icons.svg#close-icon"></use>
+          </svg>
+        </button>
+        <nav class="mobile-menu-nav">
+          <ul class="mobile-menu-list">
+            <li class="mobile-menu-item">
+              <a href="./index.html" class="mobile-menu-link ocean-accent"
+                >Studio</a
               >
             </li>
-            <li class="mobile-menu-contacts-item">
-              <a
-                href="mailto:info@devstudio.com"
-                class="mobile-menu-contacts-link"
-                >info@devstudio.com</a
-              >
+            <li class="mobile-menu-item">
+              <a href="./index.html" class="mobile-menu-link">Portfolio</a>
+            </li>
+            <li class="mobile-menu-item">
+              <a href="./index.html" class="mobile-menu-link">Contacts</a>
             </li>
           </ul>
-        </address>
-        <div class="mobile-menu-socials">
-          <ul class="mobile-menu-socials-list">
-            <li class="mobile-menu-socials-item">
-              <a href="./index.html" class="mobile-menu-socials-link media">
-                <svg class="mobile-menu-socials-icon" width="24" height="24">
-                  <use href="./images/icons.svg#instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="mobile-menu-socials-item">
-              <a href="./index.html" class="mobile-menu-socials-link media">
-                <svg class="mobile-menu-socials-icon" width="24" height="24">
-                  <use href="./images/icons.svg#x"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="mobile-menu-socials-item">
-              <a href="./index.html" class="mobile-menu-socials-link media">
-                <svg class="mobile-menu-socials-icon" width="24" height="24">
-                  <use href="./images/icons.svg#facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="mobile-menu-socials-item">
-              <a href="./index.html" class="mobile-menu-socials-link media">
-                <svg class="mobile-menu-socials-icon" width="24" height="24">
-                  <use href="./images/icons.svg#linkedin"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
+        </nav>
+        <div class="mobile-menu-bottom">
+          <address class="mobile-menu-contacts">
+            <ul class="mobile-menu-contacts-list">
+              <li class="mobile-menu-contacts-item">
+                <a
+                  href="tel:+110001111111"
+                  class="mobile-menu-contacts-link iris-accent"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="mobile-menu-contacts-item">
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="mobile-menu-contacts-link"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <div class="mobile-menu-socials">
+            <ul class="mobile-menu-socials-list">
+              <li class="mobile-menu-socials-item">
+                <a href="./index.html" class="mobile-menu-socials-link media">
+                  <svg class="mobile-menu-socials-icon" width="24" height="24">
+                    <use href="./images/icons.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-menu-socials-item">
+                <a href="./index.html" class="mobile-menu-socials-link media">
+                  <svg class="mobile-menu-socials-icon" width="24" height="24">
+                    <use href="./images/icons.svg#x"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-menu-socials-item">
+                <a href="./index.html" class="mobile-menu-socials-link media">
+                  <svg class="mobile-menu-socials-icon" width="24" height="24">
+                    <use href="./images/icons.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-menu-socials-item">
+                <a href="./index.html" class="mobile-menu-socials-link media">
+                  <svg class="mobile-menu-socials-icon" width="24" height="24">
+                    <use href="./images/icons.svg#linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>

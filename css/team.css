@@ -18,7 +18,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         column-gap: 24px;
-        row-gap: 48px;
+        row-gap: 64px;
     }
 }
 
@@ -32,6 +32,12 @@
         0 2px 1px 0 rgba(46, 47, 66, 0.08),
         0 1px 1px 0 rgba(46, 47, 66, 0.16),
         0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
+@media (min-width: 1158px) {
+    .team-item {
+        margin: 0;
+    }
 }
 
 .team-wrapper {

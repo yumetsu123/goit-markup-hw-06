@@ -25,7 +25,7 @@
 
 @media (min-width: 768px) {
     .mobile-menu-open,
-    .mobile-menu {
+    .mobile-menu.is-active {
         display: none;
     }
 

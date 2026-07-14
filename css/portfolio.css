@@ -27,6 +27,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         column-gap: 24px;
+        row-gap: 72px;
     }
     .portfolio-item {
         flex-basis: 356px;
