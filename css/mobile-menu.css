@@ -49,6 +49,14 @@
     row-gap: 24px;
 }
 
+.mobile-menu-contacts {
+    letter-spacing: 0.02em;
+}
+
+.mobile-menu-list {
+    letter-spacing: 0.02em;
+}
+
 .mobile-menu-contacts-link {
     font-weight: 500;
     font-size: 20px;

@@ -42,7 +42,6 @@
 .footer-container {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     row-gap: 72px;
 }
 
@@ -125,6 +124,7 @@
     .footer-container {
         padding-inline: 108px;
         flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .footer-info {
