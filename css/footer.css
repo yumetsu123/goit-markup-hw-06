@@ -130,6 +130,7 @@
         padding-inline: 108px;
         flex-direction: row;
         flex-wrap: wrap;
+        row-gap: 72px;
     }
 
     .footer-info {
@@ -155,6 +156,7 @@
         flex-direction: row;
         column-gap: 24px;
     }
+
 }
 
 @media (min-width: 1158px) {
