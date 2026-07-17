@@ -113,7 +113,7 @@
 
 @media (min-width: 768px) {
     .footer-form-input {
-        max-width: 264px;
+        width: 264px;
     }
 
     .footer-socials-list {
