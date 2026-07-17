@@ -48,6 +48,7 @@
 .footer-socials-list {
     display: flex;
     column-gap: 16px;
+    justify-content: center;
 }
 
 .footer-socials-icon {
@@ -134,10 +135,11 @@
 
     .footer-socials {
         margin: 0;
+        width: 208px;
     }
 
     .footer-subscribe {
-        max-width: 453px;
+        width: 453px;
         margin: 0;
     }
 
