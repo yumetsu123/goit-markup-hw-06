@@ -89,12 +89,6 @@
     letter-spacing: 0.04em;
 }
 
-@media (min-width: 768px) {
-    .footer-form-input {
-        max-width: 264px;
-    }
-}
-
 .footer-form-input::placeholder {
     color: #FFFFFF;
 }
@@ -118,6 +112,16 @@
 }
 
 @media (min-width: 768px) {
+    .footer-form-input {
+        max-width: 264px;
+    }
+
+    .footer-socials-list {
+        display: flex;
+        column-gap: 16px;
+        justify-content: start;
+    }
+
     .footer-logo {
         text-align: left;
     }
@@ -165,6 +169,10 @@
     .footer-socials {
         margin-left: 120px;
         margin-right: auto;
+    }
+
+    .footer-info {
+        margin-right: 0;
     }
 }
 
